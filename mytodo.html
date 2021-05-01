@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment3</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="mytodo.css"   />
+  </head>
+ <body>
+   <div class="pages page_left">
+      <div class="js-date">
+      <h1></h1>
+      <h1 class="js-clock-2022_title">Remaining time of year</h1>
+     <div class="js-clock-2022">
+         <h2>00d 00h 00m 00s</h2>
+    </div>
+      </div>
+      <div class="js-clock">
+        <h1>00:00:00</h1>
+      </div>
+      <form class="js-form form">
+        <input class="name" type="text" placeholder="     What is your name?">
+      </form>
+      <h4 class="js-greetings greetings"></h4>
+      <span class="js-weather"></span>
+  </div>
+
+  <div class="pages page_right">
+      <div class="page_right-up">
+        <h1>Tasks</h1>
+        <form class="js-taskForm form-pending">
+           <input type="text" placeholder="     Add task" />
+        </form>
+        <div class="pending_finished">
+          <div class="pending">
+            <h2>pending</h2>
+            <ul class="list list-pending"></ul>
+          </div>
+          <div class="finished">
+            <h2>Finished</h2>
+            <ul class="list list-finished"></ul>
+          </div>
+       </div>
+  </div>
+      <h1>Memo</h1>
+      <div class="page_right-down">
+        <form class="js-toDoForm">
+           <input class="Goals" type="text" placeholder="     At the end I'll get...."/>
+        </form>
+        <ul class="js-toDoList">
+        </ul>
+      </div>   
+  
+  </div>
+  <script src="todo-date.js"></script>
+   <script src="todo-clock.js"></script>
+   <script src="todo-greeting.js"></script>
+   <script src="todo-pending.js"></script>
+   <script src="todo-todo.js"></script>
+   <script src="bg.js"></script>
+   <script src="weather.js"></script>
+   <script src="todo-untill2022.js"></script>
+   <body>
+</html>
